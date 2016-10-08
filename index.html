@@ -5,62 +5,57 @@ layout: default
 <div>
 
   <section>
-    <h1>Jekyll theme based on hack.css</h1>
+    <h1>Welcome to My Personal Shack!</h1>
 
     <p>
-      Mobile-ready, modern, stylish, simple.
-    </p>
+Hello World,
+I believe in the Open and Free web!  i love learning and using theoretical constructs to better understand the world around me. My goals has always been to expand the frontier of human knowledge and I want to use economic theory as a means to abolish the use of coercion and aggression amongst mankind. Just as slavery has been abolished most everywhere, i believe violence, coercion and all forms of force by one person over another can come to an end. The most widespread and systemic use of force is amongst institutions and Governments and the best way to change a Government is to change the minds of the Governed. I believe everyone can make a positive difference in this world.
+  </p>
   </section>
 
-  <section>
-    <h2>What is Jekyll?</h2>
+<section>
+  <h2>Posts</h2>
 
-    <p>
-      <code>Jekyll</code> is a simple, blog-aware, static site generator
-      perfect for personal, project,
-      or organization sites. Think of it like a
-      file-based CMS, without all the complexity.
-      <code>Jekyll</code> takes your content, renders Markdown
-      and Liquid templates, and spits out a
-      complete, static website ready to be served by Apache,
-      Nginx or another web server.
-      <code>Jekyll</code> is the engine behind GitHub Pages,
-      which you can use to host sites right
-      from your GitHub repositories.
-    </p>
-  </section>
+  {% for post in site.posts %}
+    {% assign nth = forloop.index0 | modulo:2 %}
+    <div class="media">
 
-  <section>
-    <h2>What is hack.css?</h2>
+      {% if nth == 0 %}
+      <div class="t-hackcss-media-shift media-left">
+        <img class="t-hackcss-media-image"
+             src="{{ post.image_preview }}" alt="{{ post.title }}"
+             title="{{ post.title }}" />
+      </div>
+      {% endif %}
 
-    <p>
-      <code>hack.css</code> is a dead simple css framework. Chech out
-      <a href="http://hackcss.com/">hackcss.com</a> to know more.
-    </p>
-  </section>
+      <div class="media-body">
+        <div class="media-heading">
+          <span>{{ post.date | date_to_string }} &raquo;
+            {% if post.external_url %}
+              <a href="{{ post.external_url }}" target="_blank" title="{{ project.name }}">
+                {{ post.title }}
+              </a>
+            {% else %}
+              <a href="{{ post.url | prepend: site.baseurl }}" title="{{ project.name }}">
+                {{ post.title }}
+              </a>
+            {% endif %}
+          </span>
+        </div>
+        <div class="media-content">
+          {{ post.short_description }}
+        </div>
+      </div>
 
-  <section>
-    <h2>Getting started</h2>
-
-    <p>
-      <ol>
-        <li>Make sure you have <code>Jekyll</code> up and running</li>
-        <li>Clone
-          <a href="https://github.com/wemake-services/jekyll-theme-hackcss">this repository</a>
-        </li>
-        <li>Customize it</li>
-        <li>Push to <a href="https://pages.github.com/">gh-pages</a></li>
-      </ol>
-
-    </p>
-  </section>
-
-  <section>
-    <h2>Subscribe</h2>
-
-    <p>
-      subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
-    </p>
-  </section>
+      {% if nth == 1 %}
+      <div class="t-hackcss-media-shift media-right">
+        <img class="t-hackcss-media-image"
+             src="{{ post.image_preview }}" alt="{{ post.title }}"
+             title="{{ post.title }}" />
+      </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>
 
 </div>
