@@ -4,15 +4,17 @@
   <h3 class="footer-heading">{{ site.title }}</h3>
     <div class="cell -5of12">
       <div class="contact-list">
-        <center><p>
-         <a href="mailto:{{ site.email }}">{{ site.your_name }}{{ site.email }}</a>
-        </p></center>
+        <center>
+		<p>
+         <a href="mailto:{{ site.email }}">{{ site.your_name }}</a>
+        </p>
         {% for social in site.social %}
           {% assign template = social.service|prepend:"icon-"|append:".html" %}
           <span class="t-hackcss-social">
             <i class="t-hackcss-icon">{% include {{ template }} %}</i>
             <a href="{{ social.link }}">{{ social.username }}</a>
           </span>
+		  </center>
         {% endfor %}
       </div>
     </div>
