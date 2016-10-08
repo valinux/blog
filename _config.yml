@@ -29,7 +29,7 @@ navigation:
   - text: Home
     url: /
   - text: Blog
-    url: /blog
+    url: /blog.html
 social:
   - service: github
     username: valinux
