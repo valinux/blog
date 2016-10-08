@@ -28,10 +28,8 @@ email: valinux@gmail.com
 navigation:
   - text: Home
     url: /
-  - text: Docs
-    url: /docs
-  - text: Examples
-    url: /examples
+  - text: Blog
+    url: /blog
 social:
   - service: github
     username: valinux

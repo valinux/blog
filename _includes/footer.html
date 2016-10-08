@@ -13,6 +13,8 @@
             <i class="t-hackcss-icon">{% include {{ template }} %}</i>
             <a href="{{ social.link }}">{{ social.username }}</a>
           </span>
+		   <p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+		</p>
         {% endfor %}
 		</center>
       </div>
