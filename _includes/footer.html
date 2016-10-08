@@ -1,20 +1,19 @@
 <footer>
   <hr />
-
-  <h3 class="footer-heading">{{ site.title }}</h3>
+image_preview: https://avatars1.githubusercontent.com/u/5298501?v=3&s=466
+  <h3 class="footer-heading"></h3>
     <div class="cell -5of12">
       <div class="contact-list">
 		<p>
-<center>image_preview:https://avatars1.githubusercontent.com/u/5298501</center>
+         <a href="mailto:{{ site.email }}">{{ site.title }}</a>
         </p>
-		<center>
         {% for social in site.social %}
           {% assign template = social.service|prepend:"icon-"|append:".html" %}
           <span class="t-hackcss-social">
             <i class="t-hackcss-icon">{% include {{ template }} %}</i>
             <a href="{{ social.link }}">{{ social.username }}</a>
           </span>
-		  </center>
+		  
         {% endfor %}
       </div>
     </div>
