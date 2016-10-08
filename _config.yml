@@ -24,7 +24,6 @@ sass:
 theme_mode: standard  # choices are: 'dark', 'standard', 'markdown'
 
 # Customizations
-your_name: Renan Rocha
 email: valinux@gmail.com
 
 navigation:
