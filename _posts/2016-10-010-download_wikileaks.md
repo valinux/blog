@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Howto Download Wikileaks emails under Linux
+title: Howto Download Wikileaks Files under Linux
 date: 2016-10-10 12:02:23
 author: Renan Rocha
-categories: wikileaks leak email under linux using bash download
+categories: wikileaks leak email under linux using bash download files
 short_description: This post will cover all the process of downloading and backing up wikileaks email leaks
 image_preview: https://avatars1.githubusercontent.com/u/5298501?v=3&s=466
 ---
@@ -49,7 +49,7 @@ protip make sure to create a directory by using the following command:
 {% highlight bash %}
 mkdir wikileaks_emails
 cd wikileaks_emails
-curl -O https://wikileaks.org/podesta-emails/get/[2061-4047]
+curl -O https://wikileaks.org/podesta-emails/get/[1-4160]
 {% endhighlight %}
 
 2. Let's use wget if you don't like curl
