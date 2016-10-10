@@ -82,8 +82,8 @@ grep -rnw '/home/yourusername/wikileaks' -e "UFO"
 /home/username/wikileaks/3319:48968:DAjgfzL1cexyvD6/6N9Yz7zEWpXJfrc4cR/UFO+JPn+HTnrfh6qxt7+5uzheuNO2PpdiuF6knw39
 {% endhighlight %}
 
-Studying this results is simple:
+## Studying this result is simple:
 
-**2505** is the name of the file
-**24** is the line inside the file where the keyword was found
+2505 is the name of the file inside our directory
+24 is the line inside the file where the keyword was found
 Enjoy! 
