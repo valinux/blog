@@ -86,4 +86,37 @@ grep -rnw '/home/yourusername/wikileaks' -e "UFO"
 
 2505 is the name of the file inside our directory
 24 is the line inside the file where the keyword was found
-Enjoy! 
+
+## For Python coders
+
+{% highlight bash %}
+#Python e-mail download script, save below as script.py in a text editor
+
+import requests
+from multiprocessing.dummy import Pool as ThreadPool
+
+def main():
+pool = ThreadPool(32) #number of simotanious downloads to run
+pool.map(download, range (4161,5337)) #set this for the email numbers of the new leak,
+#first number is included then all numbers up to but not including the second number.
+
+def download(url):
+
+#print command is not entirely trhead safe, but any bugs it has wont crash or cause any real probmels other than looking funny sometimes
+print(url)
+
+r = requests.get("https://wikileaks.org/podesta-emails//get/" + str(url))
+with open(str(url) + ".eml", "wb") as code:
+code.write(r.content)
+
+if __name__ == "__main__":
+main()
+{% endhighlight %}
+
+This will save all the leaked files with an extention .eml you can open the these files with your favorate email client, such as Mozzila thunderbird. Later i will show you how to add leaked .eml files into your iRedmail folder so that you can keep up to date on the latest leaks using your personal e-mail client or web client or even your mobile phone so that you can read anywhere you like.
+Enjoy ;)
+
+>1-2080 first batch
+>2081-4160 second batch
+>4161-5360 third batch
+
