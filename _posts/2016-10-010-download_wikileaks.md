@@ -4,7 +4,7 @@ title: Howto Download Wikileaks Files under Linux
 date: 2016-10-10 12:02:23
 author: Renan Rocha
 categories: wikileaks leak email under linux using bash download files
-short_description: This post will cover all the process of downloading and backing up wikileaks email leaks
+short_description: This post will cover all the process of downloading and backing up wikileaks leaked files
 image_preview: https://avatars1.githubusercontent.com/u/5298501?v=3&s=466
 ---
 ## What is Curl?
