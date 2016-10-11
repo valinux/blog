@@ -113,7 +113,7 @@ if __name__ == "__main__":
 main()
 {% endhighlight %}
 
-This will save all the leaked files with an extention .eml you can open the these files with your favorate email client, such as Mozzila thunderbird. Later i will show you how to add leaked .eml files into your iRedmail folder so that you can keep up to date on the latest leaks using your personal e-mail client or web client or even your mobile phone so that you can read anywhere you like.
+This will save all the leaked files with an extention .eml you can open these files with your favorate email client, such as Mozzila thunderbird. Later i will show you how to add leaked .eml files into your iRedmail folder so that you can keep up to date on the latest leaks using your personal e-mail client or web client or even your mobile phone so that you can read anywhere you like.
 Enjoy ;)
 
 >1-2080 first batch
