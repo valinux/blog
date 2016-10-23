@@ -28,9 +28,9 @@ apt-get update -y
 apt-get install nano wget perl net-tools -y
 {% endhighlight %}
 <!--more-->
-This will update Centos/Debian and install some needed packages. For some crazy reason they decided not to ship Centos with ifconfig so the net-tools takes care of that and is needed for the firewall install as is perl.
+This will update Centos/Debian and install some needed packages. For some crazy reason they decided not to ship Centos with ifconfig so the net-tools takes care of that.
 
-1. Now we need to add a user for installing and running Teamspeak 3 server as doing it with root is not a good idea. For this guide I will be crating the user "teamspeak". If you go with another name make sure to change the name in all your paths such as cronjob.
+1. Now we need to add a user for installing and running Teamspeak 3 server as doing it with root is not a good idea. For this guide I will be creating the user "teamspeak". If you go with another name make sure to change the name in all your paths such as cronjob.
 
 {% highlight bash %}
 adduser
