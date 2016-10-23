@@ -117,3 +117,7 @@ csf -t 	 Displays the current list of temporary allow and deny IP entries with t
 {% endhighlight %}
 
 Enjoy! 
+
+![alt text](http://i.imgur.com/5utNO0S.gif "Don't Forget")
+
+*** Don't forget that under your CSF conf you can prevent ICMP AKA ping request from outside your server and you can also add SYNFlood protection and tons!! of Good stuff to prevent some sort of Cyber Attack. ***
