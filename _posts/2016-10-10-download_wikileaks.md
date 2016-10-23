@@ -18,7 +18,7 @@ cURL supports HTTPS and performs SSL certificate verification by default when a 
     2. Current working directory.
     3. Windows system directory.
     4. Windows directory.
-    5. Directories specified in the %PATH% environment variables.[6]
+    5. Directories specified in the %PATH% environment variables.
 
 ## What is Wget?
 
@@ -126,7 +126,7 @@ go to:
 {% highlight bash %}
 https://wlstorage.net/torrent/
 {% endhighlight %}
-Download the following:
+Download the following and seed none-stop.
 
 {% highlight bash %}
 wlinsurance-20130815-A.aes256.torrent              01-Jan-1984 01:01                4729
@@ -135,4 +135,6 @@ wlinsurance-20130815-C.aes256.torrent              01-Jan-1984 01:01            
 wikileaks-insurance-20120222.tar.bz2.aes.torrent   01-Jan-1984 01:01             5269442
 2016-06-03_insurance.aes256.torrent                16-Jun-2016 19:41              112465
 {% endhighlight %}
+
+![alt text](http://i.imgur.com/0JfqS4zl.png "Remember Always Seed!")
 
