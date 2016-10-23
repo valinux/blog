@@ -50,7 +50,7 @@ Uncomment it and change the port. For this guide I change the port to 6677.
 {% highlight bash %}
 Port 6677
 {% endhighlight %}
-Now save Ctrl w and exit Ctrl x and do:
+Now save Ctrl o and exit Ctrl x and do:
 {% highlight bash %}
 service sshd restart
 {% endhighlight %}
