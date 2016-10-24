@@ -30,10 +30,9 @@ Using your web browser, go to the Oracle Java SE (Standard Edition) website and 
 {% highlight bash %}
 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 {% endhighlight %}
+JDK: Java Development Kit. Includes a complete JRE plus tools for developing, debugging, and monitoring Java applications.
 
-    	JDK: Java Development Kit. Includes a complete JRE plus tools for developing, debugging, and monitoring Java applications.
-
-    	Server JRE: Java Runtime Environment. For deploying Java applications on servers. Includes tools for JVM monitoring and tools commonly required for server applications.
+Server JRE: Java Runtime Environment. For deploying Java applications on servers. Includes tools for JVM monitoring and tools commonly required for server applications.
 
 In this tutorial we will be installing the JDK Java SE Development Kit 8 x64 bits. Accept the license and copy the download link into your clipboard. Remember to choose the right tar.gz (64 or 32 bits). Use wget to download the archive into your server:
 
