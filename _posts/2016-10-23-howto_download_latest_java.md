@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto Manually Install Oracle Java on a Debian Linux
+title: Howto Manually Install Oracle Java on Debian Linux
 date: 2016-10-23 14:57:23
 author: Renan Rocha
 categories: Howto Manually Install Oracle Java on a Debian Linux OS
