@@ -37,7 +37,7 @@ root@: w
  00:00:12 up 18 days, 20:13,  2 users,  load average: 0.96, 1.10, 1.04
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
 nobody     pts/2    172.xx.xx.xxx    23:55    3:22   0.04s  0.04s -bash
-nobody     pts/3    173.xx.xx.xxx    23:57    0.00s  0.04s  0.00s w
+nobody     pts/3    173.xx.xx.xxx    23:57    0.00s  0.04s  0.00s -bash
 
 {% endhighlight %}
 
