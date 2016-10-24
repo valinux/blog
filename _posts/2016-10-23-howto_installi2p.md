@@ -26,7 +26,7 @@ Next we install i2p using -console for our install since we are using ssh client
 {% highlight bash %}
 java -jar i2pinstall_0.9.27.jar -console
 {% endhighlight %}
-You See the following questions use 1 to continue after you make your decision
+You will see the following questions use 1 to continue after you make your decision based on where you want to install i2p files.
 {% highlight bash %}
 Welcome to the installation of i2p 0.9.27!
  - I2P <https://geti2p.net/>
