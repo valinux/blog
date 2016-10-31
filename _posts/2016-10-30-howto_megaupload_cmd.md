@@ -48,10 +48,10 @@ Tools
 
 All of these tools do:
 
-- Local caching of remote session/filesystem information
-  for faster execution. Cache is encrypted with your password
-  key.
-- Support loading login credentials from a configuration file
+Local caching of remote session/filesystem information
+for faster execution. Cache is encrypted with your password
+key.
+Support loading login credentials from a configuration file
 
 ## Requirements needed to accomplish this task is the following:
 **build-essential unzip libglib2.0-dev libssl-dev libcurl4-openssl-dev libgirepository1.0-dev asciidoc**
@@ -61,8 +61,6 @@ To install under Centos
 yum update -y
 yum install build-essential unzip libglib2.0-dev libssl-dev libcurl4-openssl-dev libgirepository1.0-dev asciidoc
 {% endhighlight %}
-{% endhighlight %}
-
 To install under Debian: 
 {% highlight bash %}
 apt-get update -y
