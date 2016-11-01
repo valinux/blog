@@ -59,7 +59,7 @@ Destination: localhost:8118
 Click Open Button type in your username and password for your SSH session and the port should be open.
 {% highlight bash %}
 Our tunnel is basically like this:
-SSH Client <8118:localhost:8118> <22:8118> Remote SSH Server <8118: Local Privoxy Server <8118 
+SSH Client <8118:localhost:8118> <22:8118> Remote SSH Server <8118: Local Privoxy Server.
 {% endhighlight %}
 ## Firefox Proxy Setting
 On Your Option tab> then Advenced tab> and Network Tab> Click on the [Settings button] and add the following:
