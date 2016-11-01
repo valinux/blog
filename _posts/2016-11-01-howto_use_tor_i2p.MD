@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto Tor + I2p with privoxy tunnel ports via SSH Putty
+title: Howto Tor + I2p with privoxy
 date: 2016-11-01 13:27:23
 author: Renan Rocha
 categories: Howto TOR + I2P privoxy onion i2p darknet sites
