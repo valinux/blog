@@ -40,14 +40,22 @@ service privoxy restart
 [ ok ] Restarting filtering proxy server: privoxy.
 {% endhighlight %}
 ## Now that Privoxy has restarted we need to forward port 8118 with putty to be able to use our private proxy.
+{% highlight bash %}
 On Putty Type in your server ip address and port.
+{% endhighlight %}
 ![alt text](http://i.imgur.com/kUbGKUg.png "Putty Tunnel") 
+{% highlight bash %}
 Next Under Your connection tab click Tunnel:
+{% endhighlight %}
 ![alt text](http://i.imgur.com/pmSQYIi.png "Putty Tunnel") 
+{% highlight bash %}
 Next we add our Tunnel config
+{% endhighlight %}
 ![alt text](http://i.imgur.com/NXiv1oE.png "Putty Tunnel") 
+{% highlight bash %}
 Source port: 8118
 Destination: localhost:8118
+{% endhighlight %}
 Click Open Button type in your username and password for your SSH session and the port should be open.
 {% highlight bash %}
 Our tunnel is basically like this:
