@@ -4,7 +4,7 @@ title: Howto Tor + I2p with privoxy
 date: 2016-11-01 13:27:23
 author: Renan Rocha
 categories: Howto TOR + I2P privoxy onion i2p darknet sites
-short_description: This post will cover all the process of creating an anoymous proxy server for darknet usage
+short_description: This post will cover all the process of creating an anonymous proxy server for darknet usage
 image_preview: https://avatars1.githubusercontent.com/u/5298501?v=3&s=466
 ---
 ## What is privoxy?
