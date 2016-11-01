@@ -55,6 +55,7 @@ Next we add our Tunnel config
 {% highlight bash %}
 Source port: 8118
 Destination: localhost:8118
+Then Click the add button.
 {% endhighlight %}
 Click Open Button type in your username and password for your SSH session and the port should be open.
 {% highlight bash %}
