@@ -59,9 +59,9 @@ bioctl is the command we use to manage RAID interfaces in OpenBSD.
 There are a few options we pass to it -c C which stipulates the RAID will be a CYRPTO discipline. -r 8192 is the number of iterations of the PBKDF2 algorithm to run. -l simply specifics the hosting disk label. Enter the command: "bioctl -c C -r 8192 -l /dev/wd0d softraid0" Here you will enter your passphrase that will allow you to mount on boot. I recommend something very difficult to brute-force or a yubikey.
 You notice that i miss spelled my passcode a few times because its massive.
 Then write "/install" to get back to our install progress.
-{% highlight bash %}
+
 ![alt text](https://raw.githubusercontent.com/valinux/blog/gh-pages/images/part7.png "Part 7")
-{% endhighlight %}
+
 Go through the install process as you normally would, but when presented with the Available Disks HOLD TIGHT! First we will select wd0 which if you remember is the main drive hosting our root, swap, and RAID. 
 For wd0 we are going to use the "(W)hole disk"
 The OpenBSD installer will present a default auto-layout that otherwise would be great, but since we are encrypting we are going to create a "(C)ustom Layout"
