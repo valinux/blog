@@ -91,6 +91,7 @@ The sizing of the partitions is dependent on the environment, but for the exampl
 After you customized your partition setup w q - write and quit. 
 chose cd 
 {% highlight bash %}
+This turtorial is not fished i will update later on i got to take a break and keep editing this page. 
 {% endhighlight %}
 {% highlight bash %}
 {% endhighlight %}
